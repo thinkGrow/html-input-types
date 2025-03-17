@@ -30,21 +30,32 @@
 
         }
 
+        body {
+            background-color: darkgray;
+            color: olive;
+        }
+
         .barriceito {
             font-family: "Barriecito", system-ui;
         }
 
-        body {
-            background: #000;
-        }
-
-        label{
-            color:olive;
+        label {
+            /* color: olive; */
             font-weight: bolder;
         }
 
-        h2{
-            color:darkolivegreen;
+        h2 {
+            color: darkolivegreen;
+        }
+
+        .btn {
+            background-color: olivedrab;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+
         }
     </style>
 </head>
@@ -96,17 +107,17 @@
             <label>
                 &lt;input type="file"&gt;
             </label>
-            <input type="file">
+            <input type="file" class="btn barriceito">
 
 
             <label>
                 &lt;input type=reset&gt;
             </label>
-            <input type="reset">
+            <input type="reset" class="btn barriceito">
             <label>
                 &lt;input type=submit&gt;
             </label>
-            <input type="submit">
+            <input type="submit" class="btn barriceito">
 
         </div>
 
