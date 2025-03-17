@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- font cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barriecito&family=Manrope:wght@200..800&display=swap"
+        rel="stylesheet">
+    <style>
+        .something {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            gap: 10px;
+            align-items: flex-start;
+            margin: 0 auto;
+            border: 2px solid grey;
+            padding: 20px;
+            z-index: 1;
+            background-color: whitesmoke;
+            /* offset-x | offset-y | blur-radius | spread-radius | color */
+            -webkit-box-shadow: -2px -1px 15px 7px rgba(0, 0, 0, 0.5);
+            -moz-box-shadow: -3px -2px 30px 14px rgba(0, 0, 0, 0.425);
+            box-shadow: -4px -3px 45px 21px rgba(0, 0, 0, 0.35);
+
+        }
+
+        .barriceito {
+            font-family: "Barriecito", system-ui;
+        }
+
+        body{
+            background: #000;
+        }
+    </style>
+</head>
+
+
+<body class="barriceito">
+    <form>
+        <div class="something">
+            <h2>Basic html : common form input types</h2>
+            <label>Text: </label>
+            <input type="text">
+            <label>Password: </label>
+            <input type="password">
+            <label>Number: </label>
+            <input type="number">
+
+            <label>Checkbox: </label>
+            <input type="checkbox">
+            <label>Radio: </label>
+            <input type="radio">
+            <label>Range: </label>
+            <input type="range">
+            <label>Color: </label>
+            <input type="color">
+
+            <label>Date: </label>
+            <input type="date">
+            <label>Time: </label>
+            <input type="time">
+
+            <label>File: </label>
+            <input type="file">
+
+
+            <label>Reset: </label>
+            <input type="reset">
+            <input type="submit">
+
+        </div>
+
+    </form>
+
+</body>
+
+</html>
