@@ -15,18 +15,21 @@
         .something {
             display: flex;
             flex-direction: column;
-            width: 50%;
+            width: 34%;
             gap: 10px;
             align-items: flex-start;
             margin: 0 auto;
             border: 2px solid olive;
             /* padding: 20px; */
             padding-left: 25px;
-            padding-bottom: 2vh;
+            padding-bottom: 3vh;
             z-index: 1;
             background-color: whitesmoke;
             border-radius: 15px;
             outline: 2px solid darkgreen;
+            align-items: center;
+            align-content: center;
+            justify-content: center;
             /* offset-x | offset-y | blur-radius | spread-radius | color */
             -webkit-box-shadow: -2px -1px 15px 7px rgba(0, 0, 0, 0.5);
             -moz-box-shadow: -3px -2px 30px 14px rgba(0, 0, 0, 0.425);
@@ -40,6 +43,7 @@
             margin: auto;
             margin-top: 3vh;
             margin-bottom: 3vh;
+
         }
 
         .barriceito {
@@ -51,8 +55,18 @@
             font-weight: bolder;
         }
 
-        h2 {
-            color: darkolivegreen;
+        h1 {
+            /* color: darkolivegreen; */
+            align-items: center;
+            background-color: olivedrab;
+            color: white;
+            padding: 1vh 1.5vw;
+            border: none;
+            border-radius: 10px;
+        }
+
+        u {
+            color: darkgreen;
         }
 
         .btn {
@@ -67,7 +81,8 @@
         .file {
             /* background-color: olivedrab; */
             color: olivedrab;
-            padding: 5px 2px;
+            /* padding: 5px 10px; */
+            margin-left: 3vw;
             margin-top: 5px;
             border: none;
             border-radius: 10px;
@@ -80,7 +95,9 @@
 <body class="barriceito">
     <form>
         <div class="something">
-            <h2>Basic html : common form input types</h2>
+
+            <h1>Basic html : common form input types</h1>
+
             <label>
                 &lt;input type="text"&gt;
             </label>
@@ -127,8 +144,8 @@
 
             <label>
                 &lt;input type="file"&gt; <br>
-                <input type="file" class="file barriceito">
             </label>
+            <input type="file" class="file barriceito">
 
 
             <label>
